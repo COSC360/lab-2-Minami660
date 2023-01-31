@@ -1,0 +1,130 @@
+header,
+footer {
+  color: white;
+  background-color: #daad86;
+  margin: 0em 4em 0.5em 4em;
+}
+
+header,
+footer {
+  background-color: #312c32;
+}
+
+h1,
+h2,
+h3,
+nav,
+footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 0.75em;
+}
+
+h3,
+nav {
+  font-size: 1.125em;
+}
+
+nav {
+  padding: 8px;
+}
+
+body {
+  font-family: Georgia, Cambria, 'Times New Roman', serif;
+  background-color: #98dafc;
+}
+
+figure {
+  margin-top: 8px;
+}
+
+footer {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+
+.container {
+  background-color: white;
+  padding: 8px;
+  margin: 0em 4em 0.5em 4em;
+}
+
+a:link {
+  color: #98dafc;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #daad86;
+}
+
+a:hover {
+  background-color: #FFFFCC
+}
+
+.byline {
+  font-style: italic;
+  color: gray;
+}
+
+.large_image {
+  border: solid 1pt black;
+  padding: 0.25em;
+  width: 98%;
+}
+
+.links {
+  margin-bottom: 8px;
+}
+
+.gradient {
+  background-image: url("../images/gray-gradient.png");
+  background-repeat: repeat-x;
+  height: 50px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.dotted {
+  border: none;
+  border-top: 1px dotted black;
+  padding-bottom: 20px;
+}
+
+.glyphicon {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.share {
+  display: inline-block;
+  top: -4px;
+  position: relative;
+}
+
+.socials {
+  display: inline-block;
+}
+
+.white_background {
+  background-color: white;
+}
+
+.blue_background {
+  background-color: #98dafc;
+}
+
+#reviews,
+#relatedPhotos {
+  margin-top: 20px;
+}
